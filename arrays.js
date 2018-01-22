@@ -52,7 +52,7 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 function accessElementInArray(array, index){
   
-    return array[3];
+    return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array, element){
