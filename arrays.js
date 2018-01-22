@@ -46,7 +46,7 @@ function addElementToEndOfArray(array, element) {
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
-  array.unshift('foo');
+  array.push(element);
   return array;
   
 }
