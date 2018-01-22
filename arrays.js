@@ -21,9 +21,9 @@ var chocolateBars = [
 'kit kat', 
 'skittles'];
 
-var newArray = [1,];
-var newArray1 = [1,];
-var newArray2 = [1,];
+var newArray = [];
+var newArray1 = [];
+var newArray2 = [];
 function addElementToBeginningOfArray(array, element){
   ['foo',...newArray];
   return newArray;
