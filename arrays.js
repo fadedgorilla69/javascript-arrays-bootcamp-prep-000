@@ -21,22 +21,22 @@ var chocolateBars = [
 'kit kat', 
 'skittles'];
 
-var newArray = [];
-var newArray1 = [];
-var newArray2 = [];
-function addElementToBeginningOfArray(array, element){
-  ['foo',...newArray];
-  return newArray;
+// var newArray = [];
+// var newArray1 = [];
+// var newArray2 = [];
+
+function addElementToBeginningOfArray(array, element) {
+  return [element, ...array]
 }
+
+// function destructivelyAddElementToBeginningOfArray(array, element){
+//   newArray1.unshift('foo');
+//   return newArray1;
+// }
+
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  newArray1.unshift('foo');
-  return newArray1;
-}
-
-function addElementToEndOfArray(array, element){
+  array.unshift('element');
+  return array;
   
-  newArray2.push("whatchyamacallit");
-  return newArray2;
 }
-
